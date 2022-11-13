@@ -97,7 +97,7 @@ class TestMonthSorter {
         }),
         List.of("jan", "F", "march", "April", "JUNE", "July", "AUG", "Sept", "dec")
     );
-
+    
     @Test
     void testSorting() {
         final var randomGenerator = new Random(1);
